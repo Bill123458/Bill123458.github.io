@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>陳佳炫 - 履歷表</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Microsoft JhengHei', sans-serif;
+      color: white;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+      margin-bottom: 20px;
+    }
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #00eaff;
+      object-fit: cover;
+      box-shadow: 0 0 15px #00eaff, 0 0 30px #ff00ff;
+    }
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #00eaff;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 8px 0;
+      font-size: 1.1rem;
+    }
+    .buttons {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 25px;
+      background: #00eaff;
+      color: black;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .buttons a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>我是陳佳炫</h1>
+    <!-- 新照片，需和 index.html 放在同一資料夾 -->
+    <img src="8DFDFF32-CB27-4620-8917-2953D5B36F2C.jpeg" alt="個人照片">
+  </header>
+
+  <section>
+    <h2>學歷</h2>
+    <ul>
+      <li>安南國中</li>
+      <li>南大附中</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>興趣</h2>
+    <ul>
+      <li>看Netflix</li>
+      <li>看NBA</li>
+      <li>打籃球</li>
+      <li>打羽球</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>個性</h2>
+    <ul>
+      <li>內向</li>
+      <li>不拘小節</li>
+      <li>成熟穩重</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>工作經歷</h2>
+    <ul>
+      <li>全聯PT</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>聯絡方式</h2>
+    <ul>
+      <li>📞 電話: 0907-722-875</li>
+      <li>📧 Email: qwerty951113@gmail.com</li>
+      <li>📷 IG: jia_xuan._.1113</li>
+    </ul>
+    <div class="buttons">
+      <a href="mailto:qwerty951113@gmail.com">Email Me</a>
+      <a href="tel:0907722875">Call Me</a>
+      <a href="https://instagram.com/jia_xuan._.1113" target="_blank">Follow IG</a>
+    </div>
+  </section>
+</body>
+</html>
